@@ -50,15 +50,20 @@ public class CanalTest {
 	        m.setTexte("Bonne année 2021 !");
 
 	        Utilisateur utilisateur = new Utilisateur();
-
+	        c.getMapping_role_utilisateurs().put(new Role("Membre"), Arrays.asList(utilisateur));
+	        c.getMapping_role_habilitations().put(new Role("Membre"), Arrays.asList(Habilitation.ECRITURE));
 	        // Etape 2 : appel de la méthode testée
 	        try {
 	            c.ecrireMessage(utilisateur, m);
-
+	            
+	            List<Message> historiques = c.getHistoriques();
+		        System.out.println(historiques.get(0).getTexte());
 	            // Etape 3 test du retour
+	        	fail("L'exception aurait du être levée, on ne doit pas passer ici !");
+
+
 	        } catch (ActionNonAutoriseeException e) {
 	           
-	        	fail("L'exception aurait du être levée, on ne doit pas passer ici !");
 
 	            // Etape 3 test du retour = si on arrive ici, le test est concluant
 	        }

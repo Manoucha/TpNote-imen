@@ -29,6 +29,7 @@ public class Canal implements Destinaire, Comparable<Canal> {
 
 public void ecrireMessage(Utilisateur u,Message m) throws ActionNonAutoriseeException
 {
+	//this.mapping_role_utilisateurs.put("Membre", arg1)
 	this.historiques.add(m);
 }
 
