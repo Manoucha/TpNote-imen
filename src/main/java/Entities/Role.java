@@ -2,7 +2,6 @@ package Entities;
 
 import java.util.Objects;
 
-import model.Porte;
 
 public class Role {
 	
