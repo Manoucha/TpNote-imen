@@ -1,0 +1,10 @@
+Entities/Utilisateur.class
+Entities/Destinaire.class
+Entities/Message.class
+Entities/Habilitation.class
+Entities/WebhookAction.class
+Entities/Webhook.class
+Entities/Role.class
+Entities/Canal.class
+Entities/ServeurDiscussion.class
+Exceptions/ActionNonAutoriseeException.class
