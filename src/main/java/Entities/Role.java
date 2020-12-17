@@ -1,5 +1,9 @@
 package Entities;
 
+import java.util.Objects;
+
+import model.Porte;
+
 public class Role {
 	
 	private String nomRole;
@@ -22,19 +26,10 @@ public class Role {
 
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Role other = (Role) obj;
-		if (nomRole == null) {
-			if (other.nomRole != null)
-				return false;
-		} else if (!nomRole.equals(other.nomRole))
-			return false;
-		return true;
+		 if (this == obj) return true;
+	        if (obj == null || getClass() != obj.getClass()) return false;
+	        Role role = (Role) obj;
+	        return Objects.equals(nomRole, role.nomRole);
 	}
 
 	public String getNomRole() {
