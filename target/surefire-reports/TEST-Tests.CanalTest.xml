@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="Tests.CanalTest" time="0.02" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="Tests.CanalTest" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="14.0.2+12-46"/>
@@ -22,7 +22,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/macbook/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf4101892937054298773.tmp"/>
+    <property name="classworlds.conf" value="/Users/macbook/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2154147528496023423.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/macbook/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
@@ -56,6 +56,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
   <testcase classname="Tests.CanalTest" name="ecrireMessageKO" time="0.005"/>
-  <testcase classname="Tests.CanalTest" name="ecrireMessageOK" time="0.009"/>
-  <testcase classname="Tests.CanalTest" name="TestCompareTo" time="0.006"/>
+  <testcase classname="Tests.CanalTest" name="ecrireMessageOK" time="0.001"/>
+  <testcase classname="Tests.CanalTest" name="TestCompareTo" time="0.001"/>
 </testsuite>

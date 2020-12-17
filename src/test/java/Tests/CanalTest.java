@@ -59,14 +59,15 @@ public class CanalTest {
 	            List<Message> historiques = c.getHistoriques();
 		        System.out.println(historiques.get(0).getTexte());
 	            // Etape 3 test du retour
-	        	fail("L'exception aurait du être levée, on ne doit pas passer ici !");
 
 
 	        } catch (ActionNonAutoriseeException e) {
 	           
+	        	fail("L'exception aurait du être levée, on ne doit pas passer ici !");
 
 	            // Etape 3 test du retour = si on arrive ici, le test est concluant
 	        }
+
 	    }
 	    @Test
 	    public void TestCompareTo()
