@@ -69,7 +69,7 @@ public class CanalTest {
 	    	 Canal c1 = new Canal();
 	    	 Canal c2 = new Canal();
 	    	 c1.setOrdre(10);
-	    	 c2.setOrdre(20);
+	    	 c2.setOrdre(10);
 	 		assertEquals("Testing canaux :",0,c1.compareTo(c2));
 
 	    }
